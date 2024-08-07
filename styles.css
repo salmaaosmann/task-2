@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.main-services {
+    text-align: center;
+}
+
+.main-services-title {
+    color: #333;
+    font-size: 2em;
+    position: relative;
+}
+
+.main-services-title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #FFC107;
+    margin: 10px auto 0;
+}
+
+.service {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+}
+
+.icon {
+    height: 70px;
+    width: 120px;
+    background-size: cover;
+    background-color: #FFC107;
+    border-radius: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-1 {
+    background-image: url('icon.svg');
+}
+
+.icon-2 {
+    background-image: url('icon.svg');
+}
+
+.icon-3 {
+    background-image: url('icon.svg');
+}
+
+.icon-4 {
+    background-image: url('icon.svg');
+}
+
+.icon-5 {
+    background-image: url('icon.svg');
+}
+
+.icon-6 {
+    background-image: url('icon.svg');
+}
+
+.service h3 {
+    color: #333;
+    margin: 10px 0;
+}
+
+.service p {
+    color: #777;
+    font-size: 0.9em;
+}
+
